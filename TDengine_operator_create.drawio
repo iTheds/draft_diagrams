@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T09:26:40.172Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="cx0GGSXTsErYLCnPrsCo" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T09:37:45.328Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="g-BkRXfKhYvjrjdqsRpW" version="21.1.4" type="github">
   <diagram name="第 1 页" id="pCtgnsToikmaQAuae_r1">
     <mxGraphModel dx="1435" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -120,14 +120,14 @@
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-105" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-44" target="iXwxiYTci3UaNsQkCAsQ-114">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2410" y="1350" as="targetPoint" />
+            <mxPoint x="2310" y="1310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2410" y="1125" />
+              <mxPoint x="2310" y="1085" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-44" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;funcMgtBuiltins -val&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.layered_rect;dx=10;outlineConnect=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2350" y="810" width="160" height="60" as="geometry" />
+          <mxGeometry x="2250" y="770" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-47" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SRpcMsg&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pCont : msg : SStreamTask&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="955" y="780" width="170" height="60" as="geometry" />
@@ -147,18 +147,20 @@
             <mxPoint x="33" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.422;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-85" target="iXwxiYTci3UaNsQkCAsQ-127">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-57" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.422;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-85" target="iXwxiYTci3UaNsQkCAsQ-127">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1400" y="1140" as="sourcePoint" />
             <mxPoint x="1410" y="1310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-58" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;qCreateExecTask&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-57">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="33" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-59" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;QUERY_NODE_PHYSICAL_PLAN_STREAM_SCAN&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-57">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-59" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;QUERY_NODE_PHYSICAL&lt;/div&gt;&lt;div&gt;_PLAN_STREAM_SCAN&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-57">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="-140" y="30" as="offset" />
+            <mxPoint x="-100" y="50" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-60" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-57">
@@ -186,8 +188,16 @@
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-82" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-79">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-144" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.85;entryY=1.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-85" target="iXwxiYTci3UaNsQkCAsQ-142">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="1000" />
+              <mxPoint x="1490" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-85" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SSubplan&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ptq : STQ&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="1000" width="160" height="90" as="geometry" />
+          <mxGeometry x="1250" y="890" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-86" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-47" target="iXwxiYTci3UaNsQkCAsQ-134">
           <mxGeometry relative="1" as="geometry">
@@ -205,28 +215,32 @@
             <mxPoint y="45" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-89" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="iXwxiYTci3UaNsQkCAsQ-126">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-89" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.45;exitY=0.7;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-142" target="iXwxiYTci3UaNsQkCAsQ-126">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1730" y="850" as="sourcePoint" />
+            <mxPoint x="1490" y="1000" as="sourcePoint" />
             <mxPoint x="1730" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-90" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;createExecTaskInfoImpl&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-89">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-91" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-89">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" y="30" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-92" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-89">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-95" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="iXwxiYTci3UaNsQkCAsQ-113">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-95" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.65;exitY=0.55;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-146" target="iXwxiYTci3UaNsQkCAsQ-113">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2120" y="840" as="sourcePoint" />
-            <mxPoint x="2170" y="1380" as="targetPoint" />
+            <mxPoint x="2020" y="910" as="sourcePoint" />
+            <mxPoint x="2070" y="1340" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2120" y="1040" />
-              <mxPoint x="2120" y="1040" />
+              <mxPoint x="1830" y="1120" />
+              <mxPoint x="1830" y="1120" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -241,8 +255,8 @@
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-99" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="iXwxiYTci3UaNsQkCAsQ-114">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2280" y="870" as="sourcePoint" />
-            <mxPoint x="2270" y="1400" as="targetPoint" />
+            <mxPoint x="2110" y="980" as="sourcePoint" />
+            <mxPoint x="2170" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-100" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;createSqlFunctionCtx&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-99">
@@ -255,10 +269,10 @@
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-102" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=1;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" target="iXwxiYTci3UaNsQkCAsQ-114">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2280" y="990" as="sourcePoint" />
-            <mxPoint x="2410" y="1350" as="targetPoint" />
+            <mxPoint x="2180" y="950" as="sourcePoint" />
+            <mxPoint x="2310" y="1310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2410" y="1200" />
+              <mxPoint x="2310" y="1160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -273,13 +287,13 @@
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-106" target="iXwxiYTci3UaNsQkCAsQ-85">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1210" y="960" />
-              <mxPoint x="1380" y="960" />
+              <mxPoint x="1210" y="870" />
+              <mxPoint x="1322" y="870" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-106" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="910" width="20" height="20" as="geometry" />
+          <mxGeometry x="1200" y="850" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-140" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-112" target="iXwxiYTci3UaNsQkCAsQ-134">
           <mxGeometry relative="1" as="geometry">
@@ -293,17 +307,18 @@
           <mxGeometry x="1105" y="1070" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-113" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SOperatorInfo&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ info : include SqlFunctionCtx&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1960" y="1260" width="180" height="90" as="geometry" />
+          <mxGeometry x="1770" y="1120" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-114" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SqlFunctionCtx&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ [ ] pExpr&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2200" y="1080" width="160" height="90" as="geometry" />
+          <mxGeometry x="2030" y="1050" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-115" value="" style="endArrow=classic;html=1;rounded=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-114" target="iXwxiYTci3UaNsQkCAsQ-113">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2390" y="1520" as="sourcePoint" />
-            <mxPoint x="2410" y="1740" as="targetPoint" />
+            <mxPoint x="2290" y="1480" as="sourcePoint" />
+            <mxPoint x="2310" y="1700" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2280" y="1305" />
+              <mxPoint x="2100" y="1170" />
+              <mxPoint x="1950" y="1170" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -315,12 +330,13 @@
             <mxPoint y="40" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-118" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" target="iXwxiYTci3UaNsQkCAsQ-125">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-118" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;exitX=0.8;exitY=0.3;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-142" target="iXwxiYTci3UaNsQkCAsQ-125">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1930" y="890" as="sourcePoint" />
-            <mxPoint x="1930" y="1390" as="targetPoint" />
+            <mxPoint x="1680" y="1060" as="sourcePoint" />
+            <mxPoint x="1680" y="1390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1930" y="1270" />
+              <mxPoint x="1490" y="1030" />
+              <mxPoint x="1690" y="1030" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -328,28 +344,39 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-120" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-118">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-50" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-145" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.994;entryY=0.433;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-125" target="iXwxiYTci3UaNsQkCAsQ-126">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-125" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;OperatorTree&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1880" y="1370" width="100" height="60" as="geometry" />
+          <mxGeometry x="1640" y="1189" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-126" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SExecTaskInfo&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pRoot : Operator Tree&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1340" width="180" height="90" as="geometry" />
+          <mxGeometry x="1400" y="1180" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-136" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-127" target="iXwxiYTci3UaNsQkCAsQ-132">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-127" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;qTaskInfo_t&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="1260" width="180" height="90" as="geometry" />
+          <mxGeometry x="1252" y="1320" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-128" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-126">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-128" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-126" target="iXwxiYTci3UaNsQkCAsQ-127">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1710" y="1470" as="sourcePoint" />
             <mxPoint x="1720" y="1610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1502" y="1295" />
+              <mxPoint x="1320" y="1295" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-129" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;dsCreateDataSinker&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-128">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="93" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-130" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="iXwxiYTci3UaNsQkCAsQ-128">
           <mxGeometry x="-1" relative="1" as="geometry" />
@@ -358,7 +385,7 @@
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-132" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SStreamTask&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ exec : STaskExec&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="1320" width="180" height="90" as="geometry" />
+          <mxGeometry x="1120" y="1370" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-134" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SStreamMeta&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ pTasks : hash : SStreamTask&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="950" y="1430" width="180" height="90" as="geometry" />
@@ -373,7 +400,21 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-137" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="1270" width="20" height="20" as="geometry" />
+          <mxGeometry x="2100" y="960" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-147" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iXwxiYTci3UaNsQkCAsQ-142" target="iXwxiYTci3UaNsQkCAsQ-146">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1490" y="1030" />
+              <mxPoint x="1830" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-142" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="1010" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-146" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="1820" y="1040" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
