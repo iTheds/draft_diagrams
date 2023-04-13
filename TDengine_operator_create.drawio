@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T06:31:30.922Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="gTNujaZU2V8JSBphjLjM" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T07:15:57.249Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="0CBLD-XssZcdOH4BZbBf" version="21.1.6" type="github">
   <diagram name="第 1 页" id="pCtgnsToikmaQAuae_r1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,21 +52,6 @@
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-19" value="shell" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-17" connectable="0" vertex="1">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-21" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=elbowEdgeStyle;" parent="1" source="iXwxiYTci3UaNsQkCAsQ-15" target="iXwxiYTci3UaNsQkCAsQ-30" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="730" y="670" as="sourcePoint" />
-            <mxPoint x="670" y="550" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-22" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;mndProcessCreateStreamReq&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="iXwxiYTci3UaNsQkCAsQ-21" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-23" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-21" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-24" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-21" connectable="0" vertex="1">
-          <mxGeometry x="1" relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-26" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=elbowEdgeStyle;" parent="1" source="iXwxiYTci3UaNsQkCAsQ-33" target="iXwxiYTci3UaNsQkCAsQ-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="770" as="sourcePoint" />
@@ -79,9 +64,6 @@
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-29" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;vnodeProcessCreateStbReq&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-26" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-30" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="510" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-33" value="task" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="760" y="530" width="88" height="60" as="geometry" />
         </mxCell>
@@ -91,13 +73,15 @@
             <mxPoint x="730" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-36" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;tNewSStreamTask&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="iXwxiYTci3UaNsQkCAsQ-35" connectable="0" vertex="1">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-36" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;mndScheduleStream&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" parent="iXwxiYTci3UaNsQkCAsQ-35" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-37" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;mndScheduleStream&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-35" connectable="0" vertex="1">
-          <mxGeometry x="-1" relative="1" as="geometry" />
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-37" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;mndProcessCreateStreamReq&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-35" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint y="30" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="iXwxiYTci3UaNsQkCAsQ-38" value="Target" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-35" connectable="0" vertex="1">
+        <mxCell id="iXwxiYTci3UaNsQkCAsQ-38" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;tNewSStreamTask&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="iXwxiYTci3UaNsQkCAsQ-35" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iXwxiYTci3UaNsQkCAsQ-39" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #abb2bf;&quot;&gt;vnodeProcessWriteMsg&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="1" connectable="0" vertex="1">
