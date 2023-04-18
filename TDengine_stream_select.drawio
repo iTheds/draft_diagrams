@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-04-17T09:40:08.606Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="GR13iAOe4DynK5szXlcM" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T06:56:09.830Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="z1X0IQ2jxtiA8zEQaPuH" version="21.1.6" type="github">
   <diagram name="第 1 页" id="pvW5DdFDqltU3lUuFQCv">
     <mxGraphModel dx="2284" dy="1864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-8">
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-8" target="CJ5wkjtlqgmqb4swZ3ES-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="180.5" as="sourcePoint" />
             <mxPoint x="530" y="180" as="targetPoint" />
@@ -25,8 +25,13 @@
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-6" target="CJ5wkjtlqgmqb4swZ3ES-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-56" value="shell" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CJ5wkjtlqgmqb4swZ3ES-49">
+          <mxGeometry x="0.2182" y="-3" relative="1" as="geometry">
+            <mxPoint x="-10" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-6" value="&lt;div&gt;Sql&lt;/div&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="140" width="80" height="80" as="geometry" />
+          <mxGeometry x="-130" y="140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-8" value="task" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="352" y="150" width="88" height="60" as="geometry" />
@@ -40,28 +45,25 @@
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-10" value="sql engine operator" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-11" value="shell" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-9">
-          <mxGeometry x="-1" relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-14" target="CJ5wkjtlqgmqb4swZ3ES-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-14" value="vnode-query" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="130" width="80" height="80" as="geometry" />
+          <mxGeometry x="530" y="140" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-16" value="mnode-read" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="510" y="-160" width="80" height="80" as="geometry" />
+          <mxGeometry x="530" y="-140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-17" target="CJ5wkjtlqgmqb4swZ3ES-47">
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-17" target="CJ5wkjtlqgmqb4swZ3ES-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-17" value="vnode-fetch" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="310" width="80" height="80" as="geometry" />
+          <mxGeometry x="460" y="300" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-22" value="task" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-60" width="88" height="60" as="geometry" />
+          <mxGeometry x="870" y="30" width="88" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-14" target="CJ5wkjtlqgmqb4swZ3ES-22">
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-23" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-14" target="CJ5wkjtlqgmqb4swZ3ES-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1040" y="40" as="sourcePoint" />
             <mxPoint x="930" y="50" as="targetPoint" />
@@ -76,19 +78,20 @@
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-26" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;createScanTableListInfo&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-23">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-27" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-22">
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-27" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-14" target="CJ5wkjtlqgmqb4swZ3ES-52">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="240" as="sourcePoint" />
+            <mxPoint x="890" y="30" as="sourcePoint" />
             <mxPoint x="1010" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="250" />
+              <mxPoint x="800" y="250" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-28" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;dsCreateDataSinker&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-29" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-27">
-          <mxGeometry x="-1" relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-31" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-22" target="CJ5wkjtlqgmqb4swZ3ES-35">
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-31" value="" style="endArrow=classic;html=1;rounded=1;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-22" target="CJ5wkjtlqgmqb4swZ3ES-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1000" y="180" as="sourcePoint" />
             <mxPoint x="1390" y="270" as="targetPoint" />
@@ -103,17 +106,14 @@
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-34" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;qExecTaskOpt&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-31">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-35" value="sql operators" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fillStyle=auto;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="90" width="95" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-36" target="CJ5wkjtlqgmqb4swZ3ES-35">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-35" value="sql operators tree" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fillStyle=auto;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="140" width="95" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-36" value="sink db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1287.5" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1107.5" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-43" value="cache" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="10" width="120" height="60" as="geometry" />
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-43" value="cache 表元数据" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-45" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-16" target="CJ5wkjtlqgmqb4swZ3ES-43">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -129,8 +129,34 @@
         <mxCell id="CJ5wkjtlqgmqb4swZ3ES-47" value="client" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="10" y="140" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-52" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="950" y="240" width="120" height="60" as="geometry" />
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-52" value="Vnode msg : &lt;br&gt;&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;SDataDispatchHandle&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="310" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-57" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-35" target="CJ5wkjtlqgmqb4swZ3ES-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="170" as="sourcePoint" />
+            <mxPoint x="1830" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-58" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;doProjectOperation&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-59" value="Source" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-57">
+          <mxGeometry x="-1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-60" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;doTableScan&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="CJ5wkjtlqgmqb4swZ3ES-57">
+          <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-63" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CJ5wkjtlqgmqb4swZ3ES-17" target="CJ5wkjtlqgmqb4swZ3ES-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="490" as="sourcePoint" />
+            <mxPoint x="620" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJ5wkjtlqgmqb4swZ3ES-64" value="&lt;div&gt;read from&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CJ5wkjtlqgmqb4swZ3ES-63">
+          <mxGeometry x="-0.3077" y="-1" relative="1" as="geometry">
+            <mxPoint x="15" y="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
