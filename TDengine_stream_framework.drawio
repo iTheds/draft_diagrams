@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T09:12:23.249Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="MN-UOtOm48u4sdNOxMPt" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T09:19:12.319Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="hZrL04NbQx5SyM0O73Ox" version="21.1.6" type="github">
   <diagram name="第 1 页" id="MjN6CYrhBv5qs3SlSTt-">
     <mxGraphModel dx="584" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-99" value="server" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillStyle=hatch;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="40" width="620" height="1320" as="geometry" />
+          <mxGeometry x="1290" y="40" width="950" height="1320" as="geometry" />
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-98" value="&lt;div&gt;client&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillStyle=hatch;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="960" y="40" width="320" height="1320" as="geometry" />
@@ -21,6 +21,11 @@
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YnKo6P0KNHIwrCsgrGaU-33" target="YnKo6P0KNHIwrCsgrGaU-38">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-109" value="递送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-57">
+          <mxGeometry x="-0.3111" y="3" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-33" value="sql 引擎 执行树" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1150" y="100" width="120" height="60" as="geometry" />
@@ -189,6 +194,20 @@
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-89" value="数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-88">
           <mxGeometry x="-0.28" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YnKo6P0KNHIwrCsgrGaU-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1710" y="720" />
+              <mxPoint x="1282" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-111" value="发布到客户端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-110">
+          <mxGeometry x="0.0139" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
