@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T09:20:08.851Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="xnFDnD6ugBeG011hDxyo" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T09:20:53.588Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="Jf1WUsUD3tLl6-x1caJb" version="21.1.6" type="github">
   <diagram name="第 1 页" id="MjN6CYrhBv5qs3SlSTt-">
     <mxGraphModel dx="584" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-99" value="server" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillStyle=hatch;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="1290" y="40" width="950" height="1320" as="geometry" />
+          <mxGeometry x="1290" y="40" width="670" height="1320" as="geometry" />
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-98" value="&lt;div&gt;client&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillStyle=hatch;align=left;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="960" y="40" width="320" height="1320" as="geometry" />
@@ -63,8 +63,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YnKo6P0KNHIwrCsgrGaU-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YnKo6P0KNHIwrCsgrGaU-38" target="YnKo6P0KNHIwrCsgrGaU-44">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YnKo6P0KNHIwrCsgrGaU-38" target="YnKo6P0KNHIwrCsgrGaU-112">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="250" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-46" value="创建超级表" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-45">
           <mxGeometry x="-0.26" y="1" relative="1" as="geometry">
@@ -73,9 +75,6 @@
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-38" value="mnode-write" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1360" y="90" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="YnKo6P0KNHIwrCsgrGaU-44" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-51" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YnKo6P0KNHIwrCsgrGaU-49" target="YnKo6P0KNHIwrCsgrGaU-32">
           <mxGeometry relative="1" as="geometry" />
@@ -244,6 +243,9 @@
         </mxCell>
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-104" value="&lt;div&gt;存储模块&lt;/div&gt;&lt;div&gt;目的表&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1310" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-112" value="&lt;div&gt;存储模块&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1340" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
