@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T09:20:53.588Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="Jf1WUsUD3tLl6-x1caJb" version="21.1.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T09:21:59.777Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" etag="LOjkz3WI-0QZhaiE5c7K" version="21.1.6" type="github">
   <diagram name="第 1 页" id="MjN6CYrhBv5qs3SlSTt-">
     <mxGraphModel dx="584" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
             <mxPoint x="1500" y="1330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YnKo6P0KNHIwrCsgrGaU-91" value="嵌入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-90">
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-91" value="生成管道" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-90">
           <mxGeometry x="-0.0933" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -177,7 +177,7 @@
         <mxCell id="YnKo6P0KNHIwrCsgrGaU-96" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YnKo6P0KNHIwrCsgrGaU-78" target="YnKo6P0KNHIwrCsgrGaU-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YnKo6P0KNHIwrCsgrGaU-97" value="分发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-96">
+        <mxCell id="YnKo6P0KNHIwrCsgrGaU-97" value="作为handle分发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YnKo6P0KNHIwrCsgrGaU-96">
           <mxGeometry x="-0.1" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
