@@ -1,9 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2023-05-29T03:00:16.466Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" version="21.2.1" etag="j6wvHuWjh1Xu8R1dhBMQ" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T06:04:45.597Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="S_sIrDJyfGclQaFV_q_c" version="21.2.1" type="github">
   <diagram name="第 1 页" id="7CQtRC-q9W_XP12IUcRA">
-    <mxGraphModel>
+    <mxGraphModel dx="2524" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-2" value="worker" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-3" value="RPC:volo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-4" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-5" value="SQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-6" value="Shell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-7" value="Client API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-8" value="Base function API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-9" value="RPC:volo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-10" value="Base function API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NRXEye7PaBGdB7ZQSwBM-11" value="SNode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
