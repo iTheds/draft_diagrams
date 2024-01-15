@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2024-01-04T01:14:09.348Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="PRWc202cJ_25Nx6pDRhx" version="22.0.2" type="device" pages="3">
+<mxfile host="Electron" modified="2024-01-08T03:07:11.626Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="_htH72Kxec02-778LJJE" version="22.0.2" type="device" pages="4">
   <diagram name="基本类图" id="PA9V_iwEDMxd2l4zoY1P">
     <mxGraphModel dx="3640" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           <mxGeometry y="112" width="320" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-9" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;STqExecCol&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-459" y="958" width="160" height="86" as="geometry" />
+          <mxGeometry x="-439" y="962" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-10" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;char* qmsg;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cW2x5-e-zJkXFe2tRzl6-9">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-13" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;STqExecTb&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-459" y="1078" width="160" height="86" as="geometry" />
+          <mxGeometry x="-439" y="1082" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-14" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;int64_t suid;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cW2x5-e-zJkXFe2tRzl6-13">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-17" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;STqExecDb&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-459" y="1208" width="240" height="86" as="geometry" />
+          <mxGeometry x="-439" y="1206" width="240" height="86" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-18" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;SHashObj* pFilterOutTbUid;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cW2x5-e-zJkXFe2tRzl6-17">
           <mxGeometry y="26" width="240" height="26" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry y="60" width="240" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-21" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;STqExecHandle&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="975" width="210" height="232" as="geometry" />
+          <mxGeometry x="-50" y="974" width="210" height="232" as="geometry" />
         </mxCell>
         <mxCell id="cW2x5-e-zJkXFe2tRzl6-22" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;qTaskInfo_t &lt;span style=&quot;color: #e06c75;&quot;&gt;task&lt;/span&gt;;// 实际是SExecTaskInfo&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cW2x5-e-zJkXFe2tRzl6-21">
           <mxGeometry y="26" width="210" height="44" as="geometry" />
@@ -578,9 +578,6 @@
         <mxCell id="cwz6i7DsYX3xHCnjWqE7-10" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;qStreamExtractOffset&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="570" y="1180" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SRM7KbjvUDLqRjYeC2Rs-1" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;pExec-&amp;gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;subType&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;!=&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;TOPIC_SUB_TYPE__COLUMN&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="50" width="390" height="50" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -591,6 +588,17 @@
         <mxCell id="1" parent="0" />
         <mxCell id="HsdJOZnHY92z5LDgUmeF-1" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 8.4px; line-height: 11px;&quot;&gt;&lt;div&gt;TMQ_OFFSET__RESET_NONE = -3,&lt;/div&gt;&lt;div&gt;TMQ_OFFSET__RESET_EARLIEAST = -2,&lt;/div&gt;&lt;div&gt;TMQ_OFFSET__RESET_LATEST = -1,&lt;/div&gt;&lt;div&gt;TMQ_OFFSET__LOG = 1,&lt;/div&gt;&lt;div&gt;TMQ_OFFSET__SNAPSHOT_DATA = 2,&lt;/div&gt;&lt;div&gt;TMQ_OFFSET__SNAPSHOT_META = 3,&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hQvHYkW4vRAVpcyxnJIx" name="Page-4">
+    <mxGraphModel dx="1674" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z6Omqx2TjyYPPVGWnpM4-1" value="&lt;div style=&quot;color: rgb(171, 178, 191); background-color: rgb(35, 39, 46); font-family: &amp;quot;Cascadia Code&amp;quot;, &amp;quot;Cascadia Code&amp;quot;, monospace, &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;pExec-&amp;gt;&lt;span style=&quot;color: #e06c75;&quot;&gt;subType&lt;/span&gt; &lt;span style=&quot;color: #c678dd;&quot;&gt;!=&lt;/span&gt; &lt;span style=&quot;color: #56b6c2;&quot;&gt;TOPIC_SUB_TYPE__COLUMN&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="50" width="390" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
